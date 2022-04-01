@@ -112,7 +112,7 @@ while (gamestop == 0)
     }
     //FINISHED
 
-    //Snake eats apple / Highscore
+    //Snake eats apple / score
     if(x == food && y == food2)
     {
         score = score + 1;
