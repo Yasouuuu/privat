@@ -22,6 +22,7 @@ int main(int argc, char** argv)
     int8_t food2 = 0;
     //FINISHED
 
+    
     //Food generation
     food:
     food = rand() % 15;
@@ -38,8 +39,11 @@ int main(int argc, char** argv)
     }
     //FINISHED
     
+    
 while (gamestop == 0)
 {
+
+    
     //Border
     for(i = 0; i < 30; i++)
     {   
@@ -108,7 +112,7 @@ while (gamestop == 0)
     }
     //FINISHED
 
-    //Snake eats apple
+    //Snake eats apple / Highscore
     if(x == food && y == food2)
     {
         score = score + 1;
